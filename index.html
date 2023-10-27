@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise: Number Guessing Game</title>
+</head>
+<body>
+    <script>
+        let guessNumber;
+
+        do {
+            guessNumber = parseInt(prompt("Guess number greater than 10 but less than 20", 0));
+            if (guessNumber == 11) {
+                alert("Correct!")
+            } else {
+                alert("Guess again!")
+            }
+        } while (guessNumber != 11 && guessNumber);
+    </script>
+    
+</body>
+</html>
